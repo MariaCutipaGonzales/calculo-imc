@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return false">
+        <h3>Indice de Masa Corporal</h3>
+        <table>
+            <tr>
+                <td>
+                    <label for="peso">Peso Kg.:</label>
+                </td>
+                <td>
+                    <input type="text" name="peso" id="peso" required="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="talla">Altura Cm.:</label>
+                </td>
+                <td>
+                    <input type="text" name="talla"  id="talla" required="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" name="calcular" onclick="calcularIMC()">Calcular</button><br/>
+                </td>
+            </tr>
+        </table>
+    </form>
+        <label for="talla">IMC.:</label>
+        <div id="imc"></div>
+    <script type="text/javascript" src="assets\js\main.js">
+
+    </script>
+</body>
+</html>
