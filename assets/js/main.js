@@ -4,6 +4,6 @@ function calcularIMC() {
     altura=document.getElementById("talla").value/100;
     imc=peso/(altura*altura);
 
-    document.getElementById("imc").innerHTML=imc.toFixed(2);
+    alert( " IMC :"  + imc.toFixed(4) );
 
     }
